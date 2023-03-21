@@ -1,14 +1,13 @@
 * #wrapper {
     display: flex;
     position: relative;
+    flex-direction: column;
     left: 4%;
     width: 1440px;
     height: 2652px;
-    background-color: black;
 }
 
 #header {
-    background-color: white;
     width: 100%;
     height: fit-content;
     display: flex;
@@ -60,4 +59,62 @@
     font-size: 18px;
     color: rgb(48, 46, 46);
     left: 19%;
+}
+
+
+/* ---------------content---------------------- */
+
+#content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rating_title {
+    display: flex;
+}
+
+#rating_share_save {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#share_save {
+    display: flex;
+    align-items: center;
+}
+
+#banner {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#banner_left {
+    width: 56%;
+}
+
+#banner_right {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#banner_right_top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 48%;
+}
+
+#banner_right_bot {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 48%;
 }
