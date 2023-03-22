@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    left: 4%;
     width: 1440px;
     height: 2652px;
 }
@@ -12,6 +11,7 @@
     height: fit-content;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid rgb(244, 244, 244);
 }
 
 #left_header {
@@ -31,6 +31,7 @@
 
 .nvarbar {
     padding: 15px;
+    padding-bottom: 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -212,4 +213,67 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 3px;
+}
+#reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(244, 244, 244);
+}
+#Reviews_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+#Reviews_titles_left{
+    display: flex;
+    align-items: center;
+}
+#Reviews_titles_right{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    font-size: 15px;
+    align-items: center;
+    transition: 2s;
+}
+#Reviews_titles_right:hover{
+    color: black;
+}
+.comment_review{
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#user_comment{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#avatar_name{
+    display: flex;
+}
+#name_rating{
+    display: flex;
+    flex-direction: column;
+}
+#name_rating > #rating{
+    width: 52.5%;
+}
+#name_rating > #name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-top: 1px;
+}
+#avatar_name >#avatar{
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+#user_comment > #comment{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
 }
